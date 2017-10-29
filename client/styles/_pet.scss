@@ -1,0 +1,23 @@
+.pet {
+  float: left;
+  width: 300px;
+  padding: 10px;
+
+  img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border: solid 1px #999;
+  }
+
+  .vote {
+    background-color: #94c8fc;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+    &.voted {
+      background-color: #429bf4;
+    }
+  }
+}
